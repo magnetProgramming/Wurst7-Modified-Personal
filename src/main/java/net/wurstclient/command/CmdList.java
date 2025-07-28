@@ -69,6 +69,8 @@ public final class CmdList
 	public final ViewCompCmd viewCompCmd = new ViewCompCmd();
 	public final ViewNbtCmd viewNbtCmd = new ViewNbtCmd();
 	public final XrayCmd xrayCmd = new XrayCmd();
+	public final CoordsCmd coordsCmd = new CoordsCmd();
+	public final CopyCoordsCmd copycoordsCmd = new CopyCoordsCmd();
 	
 	private final TreeMap<String, Command> cmds =
 		new TreeMap<>(String::compareToIgnoreCase);
